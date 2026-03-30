@@ -33,7 +33,7 @@
 <p align="center">
   <img src="screenshot.png" width="800" alt="VS Code with minimalist settings">
   <br>
-  <em>(Replace `screenshot.png` with your actual screenshot)</em>
+  <em></em>
 </p>
 
 ### ✨ Features
@@ -116,7 +116,7 @@ This approach is inspired by the “zen mode” but taken further — it’s the
     Эта конфигурация скрывает все возможные элементы интерфейса, которые не помогают непосредственно писать код.
     Никаких полос прокрутки, мини‑карты, статус‑бара, лишних вкладок — только вы и редактор.
 
-<p align="center"> <img src="screenshot.png" width="800" alt="VS Code с минималистичными настройками"> <br> <em>(Замените `screenshot.png` на ваш реальный скриншот)</em> </p>
+<p align="center"> <img src="screenshot.png" width="800" alt="VS Code с минималистичными настройками"> <br> <em></em> </p>
 ✨ Возможности
 
     🗑️ Скрытые отвлекающие элементы
