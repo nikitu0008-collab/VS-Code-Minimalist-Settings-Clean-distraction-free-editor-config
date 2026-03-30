@@ -1,0 +1,77 @@
+{
+    // ============================================
+    // Безопасность и поведение по умолчанию
+    // ============================================
+    "security.workspace.trust.untrustedFiles": "open",  // Открывать файлы без предупреждения
+    "files.autoSave": "afterDelay",                     // Автосохранение (не нужно Ctrl+S)
+
+    // ============================================
+    // Внешний вид: тема, шрифт, иконки
+    // ============================================
+    "workbench.colorTheme": "Catppuccin Mocha",         // Тема (популярная мягкая тёмная)
+    "workbench.iconTheme": "catppuccin-mocha",          // Иконки в стиле Catppuccin
+    "editor.fontFamily": "'Hack', monospace",           // Шрифт с лигатурами (Hack / JetBrains Mono)
+    "editor.fontSize": 18,                              // Удобный размер шрифта
+    "editor.fontLigatures": true,                       // Лигатуры (например, -> → →)
+    "window.zoomLevel": 1,                              // Общий зум редактора
+
+    // ============================================
+    // Полное скрытие интерфейса (минимализм)
+    // ============================================
+    // Скрываем полосы прокрутки
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    // Скрываем мини-карту (minimap)
+    "editor.minimap.enabled": false,
+    // Отключаем подсветку скобок
+    "editor.matchBrackets": "never",
+    // Отключаем подсветку вхождений символа
+    "editor.occurrencesHighlight": "off",
+    // Убираем рамку над линейкой прокрутки
+    "editor.overviewRulerBorder": false,
+    // Прячем курсор в линейке прокрутки
+    "editor.hideCursorInOverviewRuler": true,
+    // Отключаем липкий скролл (sticky scroll)
+    "editor.stickyScroll.enabled": false,
+    // Убираем хлебные крошки (breadcrumbs) сверху
+    "breadcrumbs.enabled": false,
+    // Отключаем сворачивание кода (folding)
+    "editor.showFoldingControls": "never",
+    // Убираем подсветку активной строки
+    "editor.renderLineHighlight": "none",
+    // Отключаем направляющие отступов (indentation guides)
+    "editor.guides.indentation": false,
+
+    // ============================================
+    // Панели и элементы управления окном
+    // ============================================
+    "workbench.activityBar.location": "hidden",         // Скрываем левую панель активности
+    "workbench.sideBar.location": "right",              // Боковую панель переносим направо
+    "workbench.statusBar.visible": false,               // Полностью скрываем статус-бар снизу
+    "workbench.editor.showTabs": "single",              // Показываем только одну вкладку (без лишних)
+    "workbench.editor.enablePreview": false,            // Открываем файлы сразу в редакторе, а не в предпросмотре
+    "workbench.secondarySideBar.showLabels": false,     // Не показывать подписи на второй боковой панели
+    "workbench.secondarySideBar.defaultVisibility": "hidden", // Скрываем вторую боковую панель по умолчанию
+    "workbench.layoutControl.enabled": false, // Отключаем командный центр в заголовке
+    "window.customTitleBarVisibility": "never",         // Убираем кастомный заголовок (используем системный)
+    "window.titleBarStyle": "native",                   // Нативный стиль заголовка окна
+    "window.menuBarVisibility": "toggle",               // Меню появляется только по Alt
+    "chat.commandCenter.enabled": false,                // Отключаем иконку чата в командном центре
+    "chat.agentsControl.enabled": false,                // Отключаем агентов чата
+    "chat.contextUsage.enabled": false,                 // Отключаем использование контекста в чате
+    "codeium.enableCodeLens": false,                    // Отключаем CodeLens для Codeium
+
+    // ============================================
+    // Поведение редактора
+    // ============================================
+    "editor.tabSize": 4,                                // Размер табуляции (4 пробела)
+    "explorer.confirmDelete": false,                    // Не спрашивать подтверждение при удалении
+
+    // ============================================
+    // Настройки для C++ (Clangd)
+    // ============================================
+    "clangd.fallbackFlags": [
+        "-std=c++23"                                    // Стандарт C++23 по умолчанию
+    ],
+    "clangd.arguments": []                              // Дополнительные аргументы (пока пусто)
+}
